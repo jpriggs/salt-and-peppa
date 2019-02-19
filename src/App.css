@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+.title {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 26px;
+  text-align: left;
+  color: white;
+  margin: 5px;
+}
+.pepper {
+  background: url('./stardust.png');
+  background-color: #000;
+  height: 50vh;
+  width: 100%;
+  margin-top: -5px;
+}
+.salt {
+  margin-top: -30px;
+  width: 100%;
+  height: 50vh;
+  background: url('./stardust.png');
+  background-color: #eeeeee;
+}
+.editor-header, .preview-header {
+  -webkit-box-shadow: 1px 1px 10px 2px #000;
+  -moz-box-shadow: 1px 1px 10px 2px #000;
+  -ms-box-shadow: 1px 1px 10px 2px #000;
+  box-shadow: 1px 1px 10px 2px #000;
+  background-color: #2b2b2b;
+  color: white;
+  height: 20px;
+  width: 61.5%;
+  margin-top: 30px;
+  margin-left: 19.75%;
+  border: 1px solid gray;
+  position: relative;
+  z-index: 1;
+}
+.editor-header p, .preview-header p {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.preview-header {
+  width: 81.25%;
+  margin-left: 9.65%;
+}
+.editor, .previewer {
+  -webkit-box-shadow: 1px 1px 10px 2px white;
+  -moz-box-shadow: 1px 1px 10px 2px white;
+  -ms-box-shadow: 1px 1px 10px 2px white;
+  box-shadow: 1px 1px 10px 2px white;
+  background-color: #f2f2f2;
+  color: black;
+  font-family: Helvetica, arial, sans-serif;
+  height: 30%;
+  width: 60%;
+  margin-top: 0px;
+  margin-left: 20%;
+  padding-left: 10px;
+  position: absolute;
+  z-index: 0;
+}
+.previewer {
+  -webkit-box-shadow: 1px 1px 10px 2px #000;
+  -moz-box-shadow: 1px 1px 10px 2px #000;
+  -ms-box-shadow: 1px 1px 10px 2px #000;
+  box-shadow: 1px 1px 10px 2px #000;
+  background-color: #1e1e1e;
+  color: white;
+  height: 1300px;
+  width: 80%;
+  margin-left: 10%;
+}
